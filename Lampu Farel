@@ -7,7 +7,6 @@ void setup() {  // initialize digital pin 13 as an output.
 }
 
 void loop() {
-
    //VIOLET
    digitalWrite(2, HIGH);
    digitalWrite(3, LOW);
@@ -15,7 +14,6 @@ void loop() {
    digitalWrite(5, LOW);
    digitalWrite(6, LOW);
    delay (60UL * 60UL * 1000UL);
-
   //KUNING
    digitalWrite(2, HIGH);
    digitalWrite(3, HIGH);
@@ -23,7 +21,6 @@ void loop() {
    digitalWrite(5, LOW);
    digitalWrite(6, LOW);
    delay (60UL * 60UL * 1000UL);
-
    //MERAH
    digitalWrite(2, HIGH);
    digitalWrite(3, LOW);
@@ -31,7 +28,6 @@ void loop() {
    digitalWrite(5, LOW);
    digitalWrite(6, LOW);
    delay (60UL * 60UL * 1000UL);
-
    //BIRU
    digitalWrite(2, LOW);
    digitalWrite(3, LOW);
