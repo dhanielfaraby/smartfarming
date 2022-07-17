@@ -55,7 +55,6 @@ void loop() {
         lcd.print(nilaisensorair);
       digitalWrite(Relay1, LOW); 
       Serial.println("===============");
-
       delay (2000);
       lcd.clear();
       }
