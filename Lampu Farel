@@ -1,0 +1,43 @@
+void setup() {  // initialize digital pin 13 as an output.
+   pinMode(2, OUTPUT); // Merah pin 2
+   pinMode(3, OUTPUT); // Hijau pin 3
+   pinMode(4, OUTPUT); // Biru pin 4
+   pinMode(5, OUTPUT); // WWW pin 5
+   pinMode(6, OUTPUT); // CW pin 6
+}
+
+void loop() {
+
+   //VIOLET
+   digitalWrite(2, HIGH);
+   digitalWrite(3, LOW);
+   digitalWrite(4, HIGH);
+   digitalWrite(5, LOW);
+   digitalWrite(6, LOW);
+   delay (60UL * 60UL * 1000UL);
+
+  //KUNING
+   digitalWrite(2, HIGH);
+   digitalWrite(3, HIGH);
+   digitalWrite(4, LOW);
+   digitalWrite(5, LOW);
+   digitalWrite(6, LOW);
+   delay (60UL * 60UL * 1000UL);
+
+   //MERAH
+   digitalWrite(2, HIGH);
+   digitalWrite(3, LOW);
+   digitalWrite(4, LOW);
+   digitalWrite(5, LOW);
+   digitalWrite(6, LOW);
+   delay (60UL * 60UL * 1000UL);
+
+   //BIRU
+   digitalWrite(2, LOW);
+   digitalWrite(3, LOW);
+   digitalWrite(4, HIGH);
+   digitalWrite(5, LOW);
+   digitalWrite(6, LOW);
+   delay (60UL * 60UL * 1000UL);
+   
+}
